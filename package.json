@@ -1,0 +1,20 @@
+{
+  "name": "09_backend-file-upload",
+  "version": "1.0.0",
+  "description": "file uploading backend",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cloudinary": "^1.41.3",
+    "dotenv": "^16.3.2",
+    "express": "^4.18.2",
+    "express-fileupload": "^1.4.3",
+    "mongoose": "^8.1.0",
+    "nodemon": "^3.0.3"
+  }
+}
